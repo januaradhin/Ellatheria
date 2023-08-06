@@ -7,8 +7,8 @@
         let isDragging = false;
         let lastX;
         let lastY;
-        const backgroundImageSrc = 'img/twibbon_size.png'; // Ganti dengan path ke gambar latar belakang Anda
-
+        const backgroundImageSrc = 'img/twibbon_size.png';
+        
         function generateTwibbon() {
             const fileInput = document.getElementById('uploadInput');
             const twibbonContainer = document.getElementById('twibbonContainer');
@@ -25,14 +25,14 @@
                         canvas.width = twibbonImage.width;
                         canvas.height = twibbonImage.height;
                         drawTwibbon();
-                        downloadLink.style.display = 'block'; // Tampilkan tautan download
+                        downloadLink.style.display = 'block'; 
                     };
                     twibbonImage.src = e.target.result;
                 };
                 reader.readAsDataURL(fileInput.files[0]);
             } else {
                 twibbonContainer.innerHTML = 'Silakan pilih gambar.';
-                downloadLink.style.display = 'none'; // Sembunyikan tautan download
+                downloadLink.style.display = 'none'; 
             }
         }
 
@@ -43,9 +43,9 @@
                 canvas.width = bgImage.width;
                 canvas.height = bgImage.height;
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
-                ctx.drawImage(uploadedImage, offsetX, offsetY, uploadedImage.width * scale, uploadedImage.height * scale); // Gambar gambar yang diunggah terlebih dahulu
+                ctx.drawImage(uploadedImage, offsetX, offsetY, uploadedImage.width * scale, uploadedImage.height * scale);
                 ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height); 
-                // Gambar latar belakang di atas gambar yang diunggah
+
             };
             bgImage.src = backgroundImageSrc;
         }
@@ -111,7 +111,7 @@
             bgImage.src = backgroundImageSrc;
         }
 
-        // Event Listeners untuk Dragging di Desktop dan Touch di Mobile
+
         document.getElementById('canvas').addEventListener('mousedown', function (e) {
             lastX = e.pageX - this.offsetLeft;
             lastY = e.pageY - this.offsetTop;
