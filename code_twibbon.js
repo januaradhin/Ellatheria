@@ -40,9 +40,12 @@
             const canvas = document.getElementById('canvas');
             const bgImage = new Image();
             bgImage.onload = function () {
+                canvas.width = bgImage.width;
+                canvas.height = bgImage.height;
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
                 ctx.drawImage(uploadedImage, offsetX, offsetY, uploadedImage.width * scale, uploadedImage.height * scale); // Gambar gambar yang diunggah terlebih dahulu
-                ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height); // Gambar latar belakang di atas gambar yang diunggah
+                ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height); 
+                // Gambar latar belakang di atas gambar yang diunggah
             };
             bgImage.src = backgroundImageSrc;
         }
