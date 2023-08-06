@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gabriela Abigail - Ellatheria Official Website</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="shorcut icon" href="img/ella.f.logo.jpg">
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+
+
+
+</head>
+
+<body>
+
+
+        <nav>
+                <a href="https://ellatheria.my.id" class="logo"><img src="img/ella.f.logo.jpg"></a>
+                <img src="img/ellatheria_text.png" style="width: 150px; margin-left: 20px;">
+                <div class="toggle" onclick="toggleMenu();">
+                </div>
+
+
+                <ul class="menu">
+
+                        <li><a href="https://ellatheria.my.id">Home</a></li>
+                        <li><a href="https://ellatheria.my.id/gallery/gallery" onclick="toggleMenu();">Gallery</a></li>
+                        <li><a href="#" onclick="toggleMenu();">Schedule</a></li>
+                        <li><a href="https://ellatheria.my.id/article/article" onclick="toggleMenu();">Article</a></li>
+                        <li><a href="#" onclick="toggleMenu();">Merchandise</a></li>
+                        <li> <a href="#" onclick="toggleMenu();" class="select">Twibbon Ellatherland</a></li>
+                        <li> <a href="#" onclick="toggleMenu();">About Us</a></li>
+                </ul>
+        </nav>
+<section class="twibbon">
+    <div id="twibbonContainer">
+        <div id="canvasContainer">
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+<div class="tombol_twibbon">
+      <a id="downloadLink" onclick="handleDownload()">Download Twibbon</a>
+              <input type="file" id="uploadInput">
+        <button onclick="generateTwibbon()">Generate Twibbon</button>
+        <div class="zoominout">
+        <button onclick="zoomIn()">Zoom In</button>
+        <button onclick="zoomOut()">Zoom Out</button>
+        </div>
+</div>
+</section>
+    <script src="code_twibbon.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
