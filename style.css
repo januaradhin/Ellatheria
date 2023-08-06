@@ -1837,16 +1837,22 @@ text-align: left;
     width: 90%;
     height: 90%;
     border: 2px solid #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
 canvas {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 325px;
 }
-
+#twibbonContainer img{
+    width: 90%;
+    margin-top: -40vh;
+}
 input[type="file"],
 button {
     padding: 10px 20px;
