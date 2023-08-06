@@ -22,7 +22,25 @@
 
 <body>
 
+<div id="loader" class="center"></div> 
 
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+    
         <nav>
                 <a href="https://ellatheria.my.id" class="logo"><img src="img/ella.f.logo.jpg"></a>
                 <img src="img/ellatheria_text.png" style="width: 150px; margin-left: 20px;">
@@ -42,6 +60,8 @@
                 </ul>
         </nav>
 <section class="twibbon">
+        <h1>Twibbon</h1>
+        <span>Ellatherland #Arc17</span>
     <div id="twibbonContainer">
         <div id="canvasContainer">
 
@@ -61,6 +81,23 @@
         </div>
 </div>
 </section>
+
+        <div class="social">
+
+
+
+                <a href="mailto:officialellatheria@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.tiktok.com/@ellatheriaofc?_t=8dGKI7UL0Xh&_r=1"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://twitter.com/EllatheriaOfc?t=m9l_LZXgnF5sgGIMHop9KA&s=09"><i class='bx bxl-twitter'></i></a>
+                <a href="https://instagram.com/ellatheriaofc?igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram'></i></a><br>
+
+        </div>
+
+
+        <div class="copyright">
+                <p>Copyright &#169; 2023 Ellatheria</p>
+                <p><span></span>All Right Reserved</p>
+        </div>
     <script src="code_twibbon.js"></script>
     <script src="js/main.js"></script>
 </body>
