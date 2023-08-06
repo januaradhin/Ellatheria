@@ -1378,6 +1378,78 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+#twibbonContainer {
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#canvasContainer {
+    position: relative;
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+    border: 2px solid #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+#twibbonContainer img{
+    width: 90%;
+    margin-top: -37vh;
+}
+input[type="file"],
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tombol_twibbon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #FF1313;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.tombol_twibbon{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   text-align: center;
+}
+.tombol_twibbon a:hover {
+    background-color: #0056b3;
+}
+.zoominout{
+   display: flex;
+}
 }
 
 @media (max-width: 810px) {
