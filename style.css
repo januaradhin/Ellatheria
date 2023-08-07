@@ -958,6 +958,7 @@ input:not(:hover){
 }
 .tombol_twibbon button:hover{
  background-color: #FFB421;
+ color: #fff;
 }
 .tombol_twibbon a {
     display: flex;
