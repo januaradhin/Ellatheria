@@ -956,7 +956,7 @@ input[type="file"], button {
         cursor: pointer;
         background-color: transparent;
 }
-input:hover{
+input, button:hover{
 
    background-color: #FFB52D;
 
