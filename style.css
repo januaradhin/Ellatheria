@@ -1525,6 +1525,16 @@ button {
         border-radius: 5px;
         cursor: pointer;
 }
+input:hover{
+
+   background-color: #FFB52D;
+
+   color: #FFFFFF;
+   transition: 0.5s;
+}
+input:not(:hover){
+   transition: 0.5s;
+}
 .tombol_twibbon a {
 
     display: flex;
