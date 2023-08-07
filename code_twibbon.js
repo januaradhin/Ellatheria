@@ -30,7 +30,7 @@ let ctx;
                 };
                 reader.readAsDataURL(fileInput.files[0]);
             } else {
-                alert("Unggah Gambar Terlebih dahulu");
+                alert("Unggah gambar terlebih dahulu");
             }
         }
 
