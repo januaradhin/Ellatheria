@@ -31,7 +31,7 @@
                 };
                 reader.readAsDataURL(fileInput.files[0]);
             } else {
-                twibbonContainer.innerHTML = 'Unggah Gambar';
+                alert("Unggah Gambar Terlebih dahulu");
                 downloadLink.style.display = 'none'; 
             }
         }
