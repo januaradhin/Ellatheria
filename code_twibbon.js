@@ -105,7 +105,7 @@
                 ctx.drawImage(uploadedImage, offsetX, offsetY, uploadedImage.width * scale, uploadedImage.height * scale);
                 ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
                 downloadLink.href = canvas.toDataURL();
-                downloadLink.download = 'twibbon_#arc17ellatherland.png';
+                downloadLink.download = 'twibbon_#arc17ellaterland.png';
             };
             bgImage.src = backgroundImageSrc;
         }
