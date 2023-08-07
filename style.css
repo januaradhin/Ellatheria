@@ -944,7 +944,7 @@ canvas {
 }
 #twibbonContainer img{
     width: 90%;
-    margin-top: -37vh;
+    margin-top: -100vh;
 }
 input[type="file"], button {
         padding: 10px 20px;
