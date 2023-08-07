@@ -31,7 +31,7 @@
                 };
                 reader.readAsDataURL(fileInput.files[0]);
             } else {
-                twibbonContainer.innerHTML = 'Silakan pilih gambar.';
+                twibbonContainer.innerHTML = 'Unggah Gambar';
                 downloadLink.style.display = 'none'; 
             }
         }

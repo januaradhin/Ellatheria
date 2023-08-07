@@ -1425,16 +1425,14 @@ canvas {
 }
 input[type="file"],
 button {
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        color: #fff;
+        border: 2px solid #FFAF14;
+        border-radius: 5px;
+        cursor: pointer;
 }
-
 .tombol_twibbon a {
     display: flex;
     justify-content: center;
@@ -1936,18 +1934,34 @@ canvas {
     width: 90%;
     margin-top: -40vh;
 }
-input[type="file"],
-button {
-    padding: 10px 20px;
+input[type="file"] {
+    padding: 10px 10px;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
+    background-color: transparent;
+    color: #FFB52D;
+    border: 2px solid #FFB52D;
     border-radius: 5px;
     cursor: pointer;
 }
-
+input:hover{
+   background-color: #FFB52D;
+   color: #FFFFFF;
+   transition: 0.5s;
+}
+input:not(:hover){
+   transition: 0.5s;
+}
+.tombol_twibbon button{
+  background-color: transparent;
+  border: 2px solid #FFB421;
+}
+.tombol_twibbon button:hover{
+ background-color: #FFB421;
+}
 .tombol_twibbon a {
     display: flex;
     justify-content: center;
