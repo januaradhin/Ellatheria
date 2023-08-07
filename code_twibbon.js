@@ -32,7 +32,6 @@
                 reader.readAsDataURL(fileInput.files[0]);
             } else {
                 alert("Unggah Gambar Terlebih dahulu");
-                downloadLink.style.display = 'none'; 
             }
         }
 
