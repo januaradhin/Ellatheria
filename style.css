@@ -899,6 +899,96 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+#twibbonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#canvasContainer {
+    position: relative;
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+    border: 2px solid #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 325px;
+}
+#twibbonContainer img{
+    width: 90%;
+    margin-top: -40vh;
+}
+input[type="file"] {
+    padding: 10px 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: transparent;
+    color: #FFB52D;
+    border: 2px solid #FFB52D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input:hover{
+   background-color: #FFB52D;
+   color: #FFFFFF;
+   transition: 0.5s;
+}
+input:not(:hover){
+   transition: 0.5s;
+}
+.tombol_twibbon button{
+  background-color: transparent;
+  border: 2px solid #FFB421;
+}
+.tombol_twibbon button:hover{
+ background-color: #FFB421;
+}
+.tombol_twibbon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #FF921E;
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.tombol_twibbon{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   text-align: center;
+}
+.tombol_twibbon a:hover {
+    background-color: #FF921E;
+    transition: 0.5s;
+}
+.zoominout{
+   display: flex;
+}
+
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -1428,22 +1518,26 @@ button {
         padding: 10px 20px;
         margin: 5px;
         font-size: 16px;
-        color: #fff;
+        color: #FFB52D;
         border: 2px solid #FFAF14;
         border-radius: 5px;
         cursor: pointer;
 }
 .tombol_twibbon a {
+
     display: flex;
+
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    background-color: #FF1313;
-    width: 150px;
-    height: 30px;
+    background-color: transparent;
+    border: 2px solid #FF921E;
+    width: 160px;
+    height: 40px;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 .tombol_twibbon{
    display: flex;
@@ -1454,7 +1548,8 @@ button {
    text-align: center;
 }
 .tombol_twibbon a:hover {
-    background-color: #0056b3;
+    background-color: #FF921E;
+    transition: 0.5s;
 }
 .zoominout{
    display: flex;
@@ -1967,12 +2062,14 @@ input:not(:hover){
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    background-color: #FF1313;
-    width: 150px;
-    height: 30px;
+    background-color: transparent;
+    border: 2px solid #FF921E;
+    width: 160px;
+    height: 40px;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 .tombol_twibbon{
    display: flex;
@@ -1983,7 +2080,8 @@ input:not(:hover){
    text-align: center;
 }
 .tombol_twibbon a:hover {
-    background-color: #0056b3;
+    background-color: #FF921E;
+    transition: 0.5s;
 }
 .zoominout{
    display: flex;
@@ -2071,5 +2169,4 @@ input:not(:hover){
   .home-text h1 {
     font-size: 1.8rem;
   }
-}
 }
