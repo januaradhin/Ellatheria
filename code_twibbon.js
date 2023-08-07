@@ -81,14 +81,14 @@ let ctx;
         }
 
         function zoomIn() {
-            scale += 0.1;
+            scale += 0.02;
             drawTwibbon();
         }
 
         function zoomOut() {
-            scale -= 0.1;
-            if (scale < 0.1) {
-                scale = 0.1;
+            scale -= 0.02;
+            if (scale < 0.02) {
+                scale = 0.02;
             }
             drawTwibbon();
         }
