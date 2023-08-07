@@ -497,14 +497,18 @@ h2 {
   align-items: center;
   justify-content: center;
   background:  #333B93;
-  padding: 5px 0;
+  padding: 0px 0px;
   margin-top: 2rem;
+  gap: 1rem;
 }
-
+.box-transparent{
+  display: flex;
+  height: 53vh;
+}
 .social i {
   color: #FFFFFF;
   font-size: 2rem;
-  margin-right: 1rem;
+  margin-right: 0rem;
 }
 .social h1{
   font-size: large;
@@ -975,13 +979,13 @@ input:not(:hover){
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 10px;
     background-color: transparent;
     border: 2px solid #FF921E;
     width: 160px;
-    height: 40px;
+    height: auto;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none; 
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -1556,15 +1560,17 @@ input:not(:hover){
 }
 .tombol_twibbon a {
     display: flex;
+
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
     background-color: transparent;
     border: 2px solid #FF921E;
     width: 160px;
-    height: 40px;
+    height: auto;
     color: #fff;
-    text-decoration: none;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -2058,7 +2064,8 @@ text-align: left;
    font-size: 10px;
 }
  canvas{
-   width: 90%;
+   width: 100%;
+
    
    border: 2px solid #EEEEEE;
    background: url("img/twibbon_size.png");
@@ -2097,15 +2104,15 @@ input:not(:hover){
 }
 .tombol_twibbon a {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
     background-color: transparent;
     border: 2px solid #FF921E;
     width: 160px;
-    height: 40px;
+    height: auto;
     color: #fff;
-    text-decoration: none;
     margin-top: 20px;
     border-radius: 10px;
 }
