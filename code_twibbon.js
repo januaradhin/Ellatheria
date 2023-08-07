@@ -1,5 +1,4 @@
-
-        let ctx;
+let ctx;
         let uploadedImage;
         let offsetX = 0;
         let offsetY = 0;
