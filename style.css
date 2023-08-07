@@ -984,6 +984,7 @@ input:not(:hover){
 .tombol_twibbon a:hover {
     background-color: #FF921E;
     transition: 0.5s;
+    color: #fff;
 }
 .zoominout{
    display: flex;
@@ -1550,6 +1551,7 @@ button {
 .tombol_twibbon a:hover {
     background-color: #FF921E;
     transition: 0.5s;
+    color: #fff;
 }
 .zoominout{
    display: flex;
@@ -2082,6 +2084,7 @@ input:not(:hover){
 .tombol_twibbon a:hover {
     background-color: #FF921E;
     transition: 0.5s;
+    color: #fff;
 }
 .zoominout{
    display: flex;
