@@ -525,7 +525,11 @@ h2 {
   align-items: left;
   
 }
-
+.sosial{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .scella i {
   display: flex;
   background: #FFAD11;
