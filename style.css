@@ -1037,7 +1037,34 @@ input:not(:hover){
 .btnconfirm:not(:hover){
  transition: 0.5s;
 }
-
+.keterangan_text span{
+   font-size: 12px;
+   
+}
+.keterangan_generate{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   text-align: left;
+}
+.keterangan_text{
+   display: flex;
+   margin-top: 15px;
+   justify-content: left;
+   align-items: left;
+   flex-direction: column;
+   gap: 5px;
+   
+}
+.k_box h5{
+   font-size: large;
+}
+.k_box{
+   display: flex;
+   gap: 5px;
+   justify-content: left;
+   align-items: center;
+}
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -1621,6 +1648,36 @@ input:not(:hover){
 }
 .zoominout{
    display: flex;
+}
+.keterangan_text span{
+
+   font-size: 12px;
+
+   
+}
+.keterangan_generate{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   text-align: left;
+}
+.keterangan_text{
+   display: flex;
+   margin-top: 15px;
+   justify-content: left;
+   align-items: left;
+   flex-direction: column;
+   gap: 5px;
+   
+}
+.k_box h5{
+   font-size: large;
+}
+.k_box{
+   display: flex;
+   gap: 5px;
+   justify-content: left;
+   align-items: center;
 }
 }
 
