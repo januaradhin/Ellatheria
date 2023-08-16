@@ -1009,6 +1009,33 @@ input:not(:hover){
 .zoominout{
    display: flex;
 }
+.btn-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btnconfirm{
+ background: #FFAC0C;
+ border-radius: 20px;
+ width: 130px;
+ height: 40px;
+ display: flex;
+ color: #FFFFFF;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ margin-top: 15px;
+ 
+}
+.btnconfirm:hover{
+ background: transparent;
+ border: 2px solid #FFAC0C;
+ transition: 0.5s;
+}
+.btnconfirm:not(:hover){
+ transition: 0.5s;
+}
 
 @media (max-width: 991px) {
   .menu {
@@ -2135,6 +2162,9 @@ input:not(:hover){
 }
 .zoominout{
    display: flex;
+}
+.keterangan_generate span{
+   font-size: 10px;
 }
 }
 
