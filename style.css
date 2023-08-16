@@ -1013,6 +1013,7 @@ input:not(:hover){
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   gap: 1rem;
 }
 .btnconfirm{
@@ -2163,8 +2164,33 @@ input:not(:hover){
 .zoominout{
    display: flex;
 }
-.keterangan_generate span{
-   font-size: 10px;
+.keterangan_text span{
+   font-size: 12px;
+   
+}
+.keterangan_generate{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   text-align: left;
+}
+.keterangan_text{
+   display: flex;
+   margin-top: 15px;
+   justify-content: left;
+   align-items: left;
+   flex-direction: column;
+   gap: 5px;
+   
+}
+.k_box h5{
+   font-size: large;
+}
+.k_box{
+   display: flex;
+   gap: 5px;
+   justify-content: left;
+   align-items: center;
 }
 }
 
