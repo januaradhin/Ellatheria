@@ -1065,6 +1065,102 @@ input:not(:hover){
    justify-content: left;
    align-items: center;
 }
+.merchandise-plan{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.category{
+        display: flex;
+        gap: 20px;
+}
+.select-category span{
+        font-size: 12px;
+        background: #FFA60C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        font-weight: 500;
+}
+.category-box a{
+        color: white;
+}
+.item{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.item p{
+     font-size: 15px;
+}
+.category-box span{
+     font-size: 12px;
+     background: #161616;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 150px;
+     height: 30px;
+     border-radius: 10px;
+     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); 
+     font-weight: 500;
+}
+.merchandise-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.merchandise-box img{
+    width: 290px;
+    border-radius: 15px 15px 0px 0px;
+}
+.merchandise-box{
+    width: 290px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #0E0E0EBD;
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
+}
+.text-detail span{
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: #FFDD5F;
+}
+.button-merch{
+     display: flex;
+     margin-top: 25px;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+.button-merch span{
+        background: #FFB949;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 35px;
+        border-radius: 15px;
+        font-weight: 500;
+}
+.batas-merch{
+      display: flex;
+      height: 20px;
+      width: 100%;
+}
+.text-detail{
+    flex-direction: column;
+    display: flex;
+}
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -1679,6 +1775,104 @@ input:not(:hover){
    justify-content: left;
    align-items: center;
 }
+.merchandise-plan{
+
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+}
+.category{
+        display: flex;
+        gap: 20px;
+}
+.select-category span{
+        font-size: 12px;
+        background: #FFA60C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        font-weight: 500;
+}
+.category-box a{
+        color: white;
+}
+.item{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.item p{
+     font-size: 15px;
+}
+.category-box span{
+     font-size: 12px;
+     background: #161616;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 150px;
+     height: 30px;
+     border-radius: 10px;
+     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); 
+     font-weight: 500;
+}
+.merchandise-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.merchandise-box img{
+    width: 290px;
+    border-radius: 15px 15px 0px 0px;
+}
+.merchandise-box{
+    width: 290px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #0E0E0EBD;
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
+}
+.text-detail span{
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: #FFDD5F;
+}
+.button-merch{
+     display: flex;
+     margin-top: 25px;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+.button-merch span{
+        background: #FFB949;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 35px;
+        border-radius: 15px;
+        font-weight: 500;
+}
+.batas-merch{
+      display: flex;
+      height: 20px;
+      width: 100%;
+}
+.text-detail{
+    flex-direction: column;
+    display: flex;
+}
 }
 
 @media (max-width: 810px) {
@@ -1719,6 +1913,102 @@ input:not(:hover){
   flex-direction: column;
   gap: 1rem;
   margin-top: 0px;
+}
+.merchandise-plan{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.category{
+        display: flex;
+        gap: 20px;
+}
+.select-category span{
+        font-size: 12px;
+        background: #FFA60C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        font-weight: 500;
+}
+.category-box a{
+        color: white;
+}
+.item{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.item p{
+     font-size: 15px;
+}
+.category-box span{
+     font-size: 12px;
+     background: #161616;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 150px;
+     height: 30px;
+     border-radius: 10px;
+     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); 
+     font-weight: 500;
+}
+.merchandise-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.merchandise-box img{
+    width: 290px;
+    border-radius: 15px 15px 0px 0px;
+}
+.merchandise-box{
+    width: 290px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #0E0E0EBD;
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
+}
+.text-detail span{
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: #FFDD5F;
+}
+.button-merch{
+     display: flex;
+     margin-top: 25px;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+.button-merch span{
+        background: #FFB949;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 35px;
+        border-radius: 15px;
+        font-weight: 500;
+}
+.batas-merch{
+      display: flex;
+      height: 20px;
+      width: 100%;
+}
+.text-detail{
+    flex-direction: column;
+    display: flex;
 }
 .box span{
 font-size: small;
