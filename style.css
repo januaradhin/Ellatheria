@@ -1068,6 +1068,9 @@ input:not(:hover){
 .merchandise-plan{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
     width: 100%;
 }
 .category{
@@ -1128,8 +1131,14 @@ input:not(:hover){
     background: #0E0E0EBD;
     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
 }
+.text-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
 .text-detail span{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     
     color: #FFDD5F;
@@ -1158,8 +1167,15 @@ input:not(:hover){
       width: 100%;
 }
 .text-detail{
-    flex-direction: column;
-    display: flex;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.button-merch a{
+        color: white;
 }
 @media (max-width: 991px) {
   .menu {
@@ -1778,7 +1794,8 @@ input:not(:hover){
 .merchandise-plan{
 
     display: flex;
-
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
 }
@@ -1840,8 +1857,14 @@ input:not(:hover){
     background: #0E0E0EBD;
     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
 }
+.text-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
 .text-detail span{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     
     color: #FFDD5F;
@@ -1917,6 +1940,8 @@ input:not(:hover){
 .merchandise-plan{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 .category{
@@ -1944,6 +1969,16 @@ input:not(:hover){
 }
 .item p{
      font-size: 15px;
+}
+.item-unit{
+
+    margin-top: 20px;
+
+    margin-left: 20px;
+    text-align: left;
+}
+.item-unit p{
+     font-size: 10px;
 }
 .category-box span{
      font-size: 12px;
@@ -1978,7 +2013,7 @@ input:not(:hover){
     box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
 }
 .text-detail span{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     
     color: #FFDD5F;
