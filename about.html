@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ellatheria</title>
+
+    <link rel="stylesheet" href="style.css">
+   <link rel="shorcut icon" href="img/ella.f.logo.jpg">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    
+
+    
+           <style> 
+        #loader { 
+            border: 6px solid #FFAC00; 
+            border-radius: 50%; 
+            border-top: 7px solid transparent; 
+            width: 50px; 
+            height: 50px; 
+            animation: spin 1s linear infinite; 
+        } 
+         
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+         
+        .center { 
+            position: fixed;
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style> 
+
+
+</head>
+
+<body>
+
+<div id="loader" class="center"></div> 
+
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+
+    <nav>
+
+        <a href="https://ellatheria.my.id" class="logo"><img src="img/ella.f.logo.jpg"></a>
+        <img src="img/ellatheria_text.png" style="width: 150px; margin-left: 20px;">
+        <div class="toggle" onclick="toggleMenu();">
+        </div>
+        
+        
+        <ul class="menu">
+                
+            <li><a href="https://ellatheria.my.id/" >Home</a></li>
+            <li><a href="#" onclick="toggleMenu();">Gallery</a></li>
+
+            <li><a href="https://ellatheria.my.id/article/article" onclick="toggleMenu();">Article</a></li>
+             <li><a href="https://ellatheria.my.id/merchandise" onclick="toggleMenu();">Merchandise</a></li>
+                        <li> <a href="https://ellatheria.my.id/twibbon" onclick="toggleMenu();">Twibbon Ellaterland</a></li>
+             <li> <a href="" class="select" onclick="toggleMenu();">About Us</a></li>
+        </ul>
+    </nav>
+
+<section class="about">
+        <div class="about-container">
+                <div class="about-box">
+                        <img src="img/ellatheria_logo_white.png">
+                        <div class="about-text">
+                        <span>Ellatheria</span>
+                        <p>Ellatheria merupakan fanbase resmi yang mendukung Gabriela Abigail JKT48. Kami memberikan berbagai project seru yang melibatkan seluruh penggemar.<br><br>Bergabung lah bersama kami! tetap dukung kami dan Gabriela Abigail. #FLYFreedomOfLovingYou</p>
+                </div>
+                         <div class="sm-ellatheria">
+
+
+
+
+
+
+                         <a href=""><i class='bx bxl-twitter'></i></a>
+                                        <a href="https://instagram.com/jkt48.ella.a?igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram'></i></a>
+                            
+                                                                    <a href=""><i class='bx bxl-tiktok'></i></a>
+                                                                    
+                           <a href=""><i class='bx bxl-youtube'></i></a>
+
+                                </div>
+                                                <div class="join">
+                                                        <span>Mari Bergabung dengan Ellatheria dan dukung Gabriela Abigail selamanya, dan salurkan dukungan Anda secara resmi.</span>
+                                                </div>
+<div class="join-us">
+<img src="img/ellatheria_logo_white.png">
+<div class="button-join">
+<a class="btnjoin" href="#">CLICK HERE FOR JOIN</a>
+<a class="btnjoin" href="#">COMMUNITY RULES</a>
+</div>
+
+                </div>
+
+        </div>
+</section>
+
+
+        <div class="copyright">
+                <p>Copyright &#169; 2023 Ellatheria</p>
+                <p><span></span>All Right Reserved</p>
+        </div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
