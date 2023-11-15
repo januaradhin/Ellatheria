@@ -2168,6 +2168,72 @@ input:not(:hover){
   font-weight: 700;
   margin-top: 0px;
 }
+.links{
+
+
+
+     display: flex;
+
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     
+}
+.links-image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 50px;
+}
+.links-image img{
+        width: 150px;
+        border-radius: 50%;
+}
+.links-image span{
+        font-size: 23px;
+        margin-top: 15px; 
+}
+.links-container{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+      gap: 30px;
+      height: auto;
+}
+.links-text{
+        margin-top: 30px;
+}
+.links-text span{
+      
+      font-size: 20px;
+}
+.links-box{
+        display: flex;
+        color: white;
+        justify-content: center;
+        gap: 20px;
+        font-size: 18px;
+        margin-top: 0px;
+        height: 70px;
+        width: 450px;
+        align-items: center;
+        text-align: center;
+        border: 2px solid white;
+}
+
+.links-box:hover{
+      border: 2px solid #FFAC0C;
+      transition: 0.5s ease;
+      background: #FFAC0C;
+}
+.links-box:not(:hover){
+      transition: 0.5s ease;
+}
 }
 
 @media (max-width: 810px) {
